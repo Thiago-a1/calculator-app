@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Thiago-a1/calculator-app)
-- Live Site URL: [live site URL](https://calculator-app-henna.vercel.app)
+- Live Site URL: [live site URL](https://calculator-app-henna.vercel.app/)
 
 ## My process
 
