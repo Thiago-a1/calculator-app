@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 	align-items: flex-start;
-	justify-content: end !important;
+	justify-content: flex-end !important;
 
 	width: 100%;
 	height: 96px;

@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 
 import { CalculateContext } from '../../contexts/CalculateContext';
+import { ThemeContext } from '../../contexts/ThemeContext';
 
 import { Button } from '../Button';
 
@@ -8,6 +9,7 @@ import { Container } from './styles';
 
 export const Keyboard = () => {
 	const { addNumber, resetEquation, deleteNumber, calculateEquation } = useContext(CalculateContext);
+	const { currentTheme } = useContext(ThemeContext);
 
 	const handleAddNumber = (value) => {
 		addNumber({value});
@@ -150,7 +152,7 @@ export const Keyboard = () => {
 				onClick={() => handleCalculateEquation()}
 				content="=" 
 				backgroundColor="secondary"
-				color="secondaryFontColor"
+				color={currentTheme === 'alternative' ? 'black' : 'secondaryFontColor'}
 				shadow="secondaryShadow"
 			/>
 		</Container>

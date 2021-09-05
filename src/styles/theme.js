@@ -50,4 +50,6 @@ export const alternative = {
 	primaryFontColor: 'hsl(52, 100%, 62%)',
 	secondaryFontColor: 'hsl(0, 0%, 100%)',
 	extraFontColor: 'hsl(52, 100%, 62%)',
+
+	black: '#333',
 }

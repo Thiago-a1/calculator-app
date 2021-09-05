@@ -18,7 +18,7 @@ export const Container = styled.button`
 	transition: transform box-shadow 0.1s ease-in; 
 
 	@media (min-width: 661px) {
-		width: ${props => props.content === 'RESET' || props.content === '=' ?246 : 112}px;
+		width: ${props => props.content === 'RESET' || props.content === '=' ? 246 : 112}px;
 
 		border-radius: 12px;
 	}

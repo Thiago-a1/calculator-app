@@ -16,4 +16,8 @@ export const GlobalStyle = createGlobalStyle`
 		font-family: 'Spartan', sans-serif;
 		font-weight: 700;
 	}
+
+	button {
+		cursor: pointer;
+	}
 `

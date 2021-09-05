@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
-import { dark, light, alternative } from '../../styles/themes/theme';
+import { dark, light, alternative } from '../../styles/theme';
 
 import { GlobalStyle } from '../../styles/global';
 
