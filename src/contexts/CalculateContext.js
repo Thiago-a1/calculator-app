@@ -1,3 +1,4 @@
+/* eslint no-eval: 0 */
 import React, {useState, createContext} from 'react';
 
 export const CalculateContext = createContext();
@@ -14,8 +15,12 @@ export const CalculatorProvider = (props) => {
 	}
 
 	const calculateEquation = () => {
-		let result = parseFloat(eval(equation).toFixed(2)).toString();
-		setEquation(result);
+		try {
+			let result = parseFloat(eval(equation).toFixed(2)).toString();
+			setEquation(result);
+		} catch {
+			setEquation('Erro');
+		}
 	}
 
 	const resetEquation = () => {

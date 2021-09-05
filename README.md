@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- [Solution URL]: (https://github.com/Thiago-a1/calculator-app)
+- [Live Site URL]: (https://your-live-site-url.com)
 
 ## My process
 
@@ -45,5 +45,5 @@ Users should be able to:
 
 ## Author
 
-- Website - Thiago Araujo
+- Website - [Thiago Araujo]
 - Frontend Mentor - [@Thiago-a1](https://www.frontendmentor.io/profile/Thiago-a1)
