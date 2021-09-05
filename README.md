@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]: (https://github.com/Thiago-a1/calculator-app)
-- [Live Site URL]: (https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Thiago-a1/calculator-app)
+- Live Site URL: [live site URL](https://your-live-site-url.com)
 
 ## My process
 
